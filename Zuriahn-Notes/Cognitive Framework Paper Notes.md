@@ -38,10 +38,7 @@
 - The paper proposes a Cognitive Framework for coincident faults (ConFCF) for modeling the likelihood that different programmers will introduce the same faults.
 - This was evaluated through an N-version programming experiment involving 200 programmers.
 
-$$
-POCi = OCi/P
-
-$$
+`POCi = OCi / P`
 
 - POC = Prevalence of Occurrence of a fault - The percentage of programmers who introduced the fault (How common a fault is)
 - OC = Occurrences of a fault - The number of programmers in an N-version programming study who introduced that fault.
