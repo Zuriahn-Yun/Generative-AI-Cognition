@@ -36,7 +36,17 @@ class MainTest {
         // Reset System.out
         System.setOut(originalOut);
 
-        String expectedOutput = "4";
+        String expectedOutput = String.join("\n",
+    "    o    ",
+        "  ooo  ",
+        "   o", 
+        "  o  o  o  ",
+        "ooooooooo",
+        "    o    ",
+        "   ooo   ",
+        "    o    ", 
+        " o o o"
+        );
 
         System.out.println(outputStream.toString());
 
