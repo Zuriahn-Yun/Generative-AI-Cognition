@@ -37,16 +37,17 @@ class MainTest {
         System.setOut(originalOut);
 
         String expectedOutput = String.join("\n",
-    "    o    ",
-        "  ooo  ",
-        "   o", 
-        "  o  o  o  ",
-        "ooooooooo",
-        "    o    ",
-        "   ooo   ",
-        "    o    ", 
-        " o o o"
-        );
+    "        o  ",
+    "      ooo  ",
+    "         o  ",
+    "  o   o   o  ",
+    "ooooooooo ",
+    "  o   o   o  ",
+    "         o  ",
+    "      ooo  ",
+    "        o  "
+);
+
 
         System.out.println(outputStream.toString());
 
