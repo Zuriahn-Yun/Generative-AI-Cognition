@@ -11,6 +11,7 @@ import java.io.ByteArrayInputStream;   // <- needed for System.setIn
 import java.io.ByteArrayOutputStream; // <- needed to capture output
 import java.io.PrintStream;           // <- needed for System.setOut
 
+// To run Gradle Tests on Maim.Java, in terminal "gradle test"
 
 class MainTest {
 
@@ -37,15 +38,15 @@ class MainTest {
         System.setOut(originalOut);
 
         String expectedOutput = String.join("\n",
-    "        o  ",
-    "      ooo  ",
-    "         o  ",
-    "  o   o   o  ",
-    "ooooooooo ",
-    "  o   o   o  ",
-    "         o  ",
-    "      ooo  ",
-    "        o  "
+"    o    ",
+    "   ooo   ",
+    "    o    ",
+    "   ooo   ",
+    "ooooooooo",
+    "   ooo   ",
+    "    o    ",
+    "   ooo   ",
+    "    o    "
 );
 
 

@@ -1,0 +1,5 @@
+10/14/2025
+Occasionally ChatGPt will provide with several responses, usually when prompted to be extra careful. 
+
+What is the best way to produce the fewest errors in Ai Generated Solutions? 
+What are the most common errors in Ai Generated Solutions, how are they different from Human Error? 
