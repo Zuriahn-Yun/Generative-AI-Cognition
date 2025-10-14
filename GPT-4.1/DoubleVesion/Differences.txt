@@ -1,0 +1,22 @@
+V1 and V2 Differences 
+- V1 uses Scanner V2 uses buffered reader
+
+V1 and V2 similiarities
+- Both are well commented
+- I dont think either of them greate a large n x n matrix they change the size depeding on the level they need to create 
+
+V1
+-Scanner is never closed
+- Makes more assumptions about user input than V2
+
+V2
+-About 50 lines of code extra
+-what are NBSP issues?
+-It has more defense against bugs in the input whereas V1 makes a lot of assumptions about the input cases given
+-Very much more complicated than V1, way harder to follow
+
+When testing
+java V1 < test.txt
+
+It looks like V1 falls apart at larger fractals? Hard to tell with terminal size being smaller. But from size 2 to 4 dont have many issues and can be checked easily.
+
