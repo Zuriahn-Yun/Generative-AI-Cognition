@@ -1,9 +1,0 @@
-{
-    "java.project.sourcePaths": [
-        "app/src/main/java/org/example",
-        "Test",
-        "GPT-4.1/Version2",
-        "GPT-4.1/Version1",
-        "GPT-4.1/DoubleVesion"
-    ]
-}
