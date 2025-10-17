@@ -65,17 +65,11 @@ class Fractal {
         }
         int size = (int) Math.pow(3,n-1);
         for (int i = 0; i < shape.length; i++) { 
-
             for (int j = 0; j < shape[i].length; j++) { 
-
                 if (shape[i][j] == symbol) { 
-
                     int innerSize = size / 3; 
-
                     int innerRow = row + innerSize * i; 
-
                     int innerCol = col + innerSize * j; 
-
                     fill(n - 1, innerRow, innerCol); 
                 }
             }

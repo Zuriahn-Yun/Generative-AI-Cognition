@@ -1,0 +1,15 @@
+--Main Function--
+Chat GPT Places each i,j value in the shape instead of parsing line by line
+
+
+printFractal
+ChatGPT Prints out the entire line instead of searching for where it ends. It does strip it but this is inneficient with large size fractals.
+
+
+Fractal Function
+Chat GPT uses a Fractal Function instead of a class. 
+
+ChatGPT uses the incorrect size function.
+size * 3 instead of Math.pow(3,n-1)
+
+To create the fractals, it iterates 
