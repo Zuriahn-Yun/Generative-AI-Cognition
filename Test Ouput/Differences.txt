@@ -2,14 +2,14 @@
 Chat GPT Places each i,j value in the shape instead of parsing line by line
 
 
-printFractal
-ChatGPT Prints out the entire line instead of searching for where it ends. It does strip it but this is inneficient with large size fractals.
+ChatGPT Created a Pad Function to make sure each line was at least 3 long. This is to avoid errors. 
 
 
-Fractal Function
+Fractal Generation
 Chat GPT uses a Fractal Function instead of a class. 
 
 ChatGPT uses the incorrect size function.
+
 size * 3 instead of Math.pow(3,n-1)
 
-To create the fractals, it iterates 
+ChatGPT uses 4 four loops instead of calculating the new lenght of rows and columsn. 
