@@ -1,3 +1,4 @@
+package testoutput;
 import java.util.Scanner;
 
 public class FractalGenerator {
