@@ -12,8 +12,10 @@ public class chattime {
             
             chattime chattime = new chattime();
 
-            
 
+            // iterate all the way from 2 - for several different fractals
+
+    
             
         } catch (Exception e) {
             System.out.println("Excetion" + e);
